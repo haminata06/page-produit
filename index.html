@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Première page produit</title>
+    <meta name="SMARIX" content="Site de page produit e-commerce">
+    <title>SMARIX</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <ol type="A">
-        <li>Partie 1
-            <ul>
-                <li>lsite imbriquée</li>
-            </ul>
-        </li>
-    </ol>
-    <dl>
-        <dt>terme à définir</dt>
-        <dd>définition du terme</dd>
-    </dl>
-    <!-- ci-dessous un lien externe -->
-    <p>Télécharger <a href="cours-algorithme.pdf" target="_blank">mon ppt</a></p>
-    <header></header>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <img src="images/Logo-SMARIX.png" alt="SMARIX" weight="40" height="40">
+                <span>SMARIX</span>
+            </div>
+            <div class="menu">
+                <ul class="entête">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <a href="#"> 
+                    <i data-lucide="user-round"></i>
+                </a>
+                 <button>
+                    <i data-lucide="search"></i>
+                </button>
+                <a href="#"> 
+                    <i data-lucide="shopping-bag"></i>
+                </a>
+                <button>
+                    <i data-lucide="heart"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
